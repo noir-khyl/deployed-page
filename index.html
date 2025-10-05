@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Page Deployed</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: rgb(51, 35, 95);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+        }
+
+        .displaybox {
+            background-color: grey;
+            color: white;
+            padding: 20px 40px;
+            border-radius: 8px;
+            font-size: 1.2em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="displaybox">Welcome Visitor! You are visiting visiting us through {{ inventory_hostname }}</div>
+</body>
+
+</html>
